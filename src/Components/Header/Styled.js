@@ -8,6 +8,7 @@ export const Container = styled.header`
     max-width:1920px;
     width:100%;
     margin: auto;
+
     
     h1{
         font-size:2vw;
@@ -26,7 +27,7 @@ export const Container = styled.header`
 
 
 export const MenuDesk = styled.nav`
-width:60%;
+width:55%;
 display:flex;
 justify-content:center;
 ul{
@@ -82,7 +83,7 @@ color:#fff;
     li{
         font-size:1rem;
         &:hover{
-            background-color:#B8860B	;
+            background-color:#B8860B;
             cursor:pointer;
         }
     }
